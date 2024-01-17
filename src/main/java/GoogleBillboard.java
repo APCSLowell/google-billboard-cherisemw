@@ -12,7 +12,7 @@ public class GoogleBillboard {
 		System.out.println(answer);
 	}
 	
-	public boolean isPrime(double d){
+	public static boolean isPrime(double dNum){
 		boolean prime = true;
 		if (dNum < 2){
 			prime = false;
